@@ -33,6 +33,619 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+	
+	
+	<html>
+<head>
+<title>Home | The Sadorus 4-H All-Stars </title>
+<link rel="stylesheet" type="text/css" href="4hstyles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #009959;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+
+
+h1.theTitle {
+	background-color: lightgreen;
+	text-align: center;
+	padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    background-color: #333;
+	font-size: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover:not(.active) {
+    background-color: #111;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Times New Roman", Georgia;
+}
+.header {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+	padding-top: 100px;
+	text-align: left;
+	background: #008d46;
+	font-size: 30px;
+	background-image: url("4-Hboys.JPG"); 
+	background-position:right ;
+	width: 100%;
+    background-size: cover;
+	background-image: no repeat;
+	z-index: -99;
+	color: white;
+	
+} 
+.headerMember {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+	padding-top: 100px;
+	text-align: left;
+	background: #008d46;
+	font-size: 30px;
+	background-image: url("4-Hboys.JPG"); 
+	background-position:right center ;
+	width: 100%;
+    background-size: cover;
+	background-image: no repeat;
+	z-index: -99;
+	color: white;
+} 
+.headerContact {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+	padding-top: 100px;
+	text-align: left;
+	background: #008d46;
+	font-size: 30px;
+	background-image: url("4-Hboys.JPG"); 
+	background-position:right center ;
+	width: 100%;
+    background-size: cover;
+	background-image: no repeat;
+	z-index: -99;
+	color: white;
+} 
+.headerJoin {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+	padding-top: 100px;
+	text-align: left;
+	background: #008d46;
+	font-size: 30px;
+	background-image: url("4-Hboys.JPG"); 
+	background-position:right center ;
+	width: 100%;
+    background-size: cover;
+	background-image: no repeat;
+	z-index: -99;
+	color: white;
+} 
+.headerAbout {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+	padding-top: 100px;
+	text-align: left;
+	background: #008d46;
+	font-size: 30px;
+	background-image: url("4-Hboys.JPG"); 
+	background-position:right center ;
+	width: 100%;
+    background-size: cover;
+	background-image: no repeat;
+	z-index: -99;
+	color: white;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 20%;
+}
+.right {
+	float: right;
+	width:20%;
+}
+.middle {
+	width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column left, .column middle, .column right {
+        width: 100%;
+    }
+}
+h2 {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+.theright {
+	background-color: white;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #aaaaaa;
+	/* width: 250px;*/
+}
+.center {
+	background-color: white;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+	/*width: 600px;*/
+}
+.theleft {
+	background-color: white;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #aaaaaa;
+	/*width: 250px;*/
+}
+.joinbutton {
+	background-color:#008d46;
+	border: 1px solid black;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+}
+.joinbutton:hover {
+		background-color: black;
+		cursor: pointer;
+}
+.joinbutton2 {
+	background-color:#008d46;
+	border: 1px solid black;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+	margin-top: 20px;
+}
+.form :hover:not(.active) {
+    background-color: #111;
+	cursor: pointer;
+}
+.clubmission {
+	background-color: lightgray;
+}
+.responsive {
+    width: 100%;
+    max-width: 3000px;
+    height: auto;
+}
+.responsiveright {
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+}
+.responsiveleft {
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+}
+.middlestrip {
+	column-gap: 20px;
+	column-rule-width: 3px;
+	column-count: 2;
+}
+.testimonials {
+	font-size: 50px;
+	padding-left: 50px;
+	padding-top: 2px;
+}
+.footer {
+	background-color: black;
+	color: white;
+	height: 200px;
+	
+}
+.footerbutton:hover {
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+.hear {
+	font-size: 80px;
+}
+.dark {
+	background-color: #333;
+	color: white;
+	padding: 50px;
+	font-size: 20px;
+	
+}
+.foottags{
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.foottags:hover {
+	color: black;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.button {
+  border-radius: 4px;
+  background-color: #008d46;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.tableMembers {
+	border: 3px solid black;
+	text-decoration: none;
+	color: black;
+	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.aboutus {
+	padding-left: 30px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.aboutauthor {
+	text-align: center;
+	font-size: 50px;
+	
+}
+.malia {
+	margin-left: 400px;
+}
+.letsgetthisdone {
+		border-left: 3px solid black;
+		border-right: 3px solid black;
+}
+ </style>
+</head>
+<body>
+
+<ul class="menu">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="gallery.html">Gallery </a> </li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="aboutus2.html">About</a></li>
+  <li><a href="join.html">Join</a></li>
+</ul>
+
+<div class="header">
+  <h1 style="font-size: 80px"> The Sadorus <br />4-H All-Stars</h1> <br />
+  <p style="float: left"><b>To Make the Best, Better</b></p>
+</div>
+
+<
+
+<div class="row">
+  <div style="margin-left: 30px;"class="column left">
+	<div class="theleft">
+		<h2>Join Now!</h2>
+		<p>Are you interested in joining our 4-H club? We love having and meeting new members! Click here for more information on signing up and our club. We can't wait to see you then!</p>
+		<img class="responsiveleft" src="4HC.jpg" alt="4-hers holding signs">
+		<center>
+		<form class= "form"action="join.html">
+		<input  class="joinbutton" type="submit" value="Sign up now!" />
+		</form>
+		</center>
+	</div>
+  </div>
+  <div class="column middle">
+	<div class="center">
+		<h2>Current Events</h2>
+		<img class="responsive" src="CurrentEvent.jpg" alt="4-Hers">
+		<p>Every year for our club's second meeting, we like to celebrate the achievements of the previous year by holding a potluck at the 4-H camp in Monticello. There members are rewarded with certificates for year completion, perfect record books, new members, cloverbuds, and new officers. The leaders also presented each 4-H family with their choice of a blanket, portable chargers, gift card, coasters, and a spatula and cookie cutter. After the ceremony,  members and their families were dismissed to go eat and the achievement celebration began. Each family brought a covered dish to share or drinks. Once everyone was full, our club's junior leader, Miranda Fairbanks, led the club in a series of team games that included relay races and using their resources to accomplish the tasks presented. Then, it was time for the spooky hayride. The members rode down to the old dining hall where they were greeted by several scarers. One of our club's leaders, Lori Gregg told a scary story. Overall, the event was a great success and super fun! </p>
+	</div>
+	</div>
+  <div style="margin-right: 30px;" class="column right">
+	<div class= "theright">
+		<h2>About Us</h2>
+		<p>Our club, the Sadorus 4-H All-Stars was founded in the early 60s and is still continues to be the largest 4-H club in Champaign County.</p>
+		<img class="responsiveright" src="4HS.jpg" alt="two 4-hers at the JLC conference">
+		<center>
+		<form action="aboutus2.html">
+		<input  class="joinbutton" type="submit" value="Sign up now!" />
+		</form>
+		</center>
+	</div>
+  </div>
+</div>
+<div  class="middlestrip" style="background-color:lightgray">
+	<div class="clubmission">
+		<h1 style="text-align: right; padding-top: 50px; font-size: 60px;"> Our Club's Mission: <h1>
+		<p style="text-align: right; font-size: 50px;">Help out the Community, Work Hard, and Become the Best Version of Ourselves. </p>
+		<center>
+		<button class="button"><a href="aboutus2.html"><span style="color: white;"> Read On!</span></a></button>
+		</center>
+	</div>
+	<img src="thecirclepic.png" alt="4-hers christmas caroling">
+	
+</div>
+<h1 class="hear"style="text-align:center"> Hear From the Members</h1>
+<center>
+<div>
+<table  class="testimonials"> 
+<tr><td><img src="olivia.jpg"> </td> <td><img src="phillip.JPG"> </td> <td><img src="camden.jpg"> </td> </tr>
+<tr> <td><figure> Olivia S 
+    <figcaption>Listen to her testimonial:</figcaption>
+    <audio
+        controls
+        src="OliviaShikeinterview.m4a">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure> </td>
+<td><figure>
+Phillip H 
+    <figcaption>Listen to his testimonial:</figcaption>
+    <audio
+        controls
+        src="PhillipHartkeinterview.m4a">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure> </td>
+<td><figure>
+Camden F
+    <figcaption>Listen to his testimonial:</figcaption>
+    <audio
+        controls
+        src="CamdenFairbanksinterview.m4a">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure> </td> </tr>
+</table>
+</center>
+<div class="dark"> 
+<center>
+<table> 
+<tr colspan="4"><td><a class="foottags"href="aboutus2.html">About us</a></td><td><a class="foottags"href="contact.html">Contact</a></td><td><a class="foottags"href="gallery.html">Gallery</a></td><td><a class="foottags"href="joinnow.html">Join Now!</a></td></tr>
+<form method="post"encType="text/plain" action="mailto: Malia.Fairbanks7@gmail.com" >
+	Sign up for Emails: <input type="text" ="40" name="Email" required/> <input name="submit" value="submit" type="submit">
+	</form> </td> </tr>
+<center><tr align="center"><td colspan="4"> <a href="https://www.facebook.com/groups/1986997374898009/?jazoest=265100120104517399107897710845105901086975981031131171177373711128351103458866508899122531015451114110115559710358651001215211989899968119458011076954911886991115710911957731074512011210378895511099839511012250657710884100103" class="fa fa-facebook"></a><a href="https://twitter.com/illinois4h?lang=en" class="fa fa-twitter"></a></td></tr> </center>
+</table>
+</center>
+</div>
+
+</body>
+</html>
  </style>
 </head>
 <body>
