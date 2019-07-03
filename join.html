@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>Join | The Sadorus 4-H All-Stars </title>
+<link rel="stylesheet" type="text/css" href="4hstyles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.split {
+  position: absolute;
+  width: 50%;
+  height: 500px;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: gray;
+}
+
+.right {
+  right: 0;
+  background-color: #b5b8bd;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.ribbon {
+    --p: 15px;
+    background-color: #009959;
+    display: inline-block;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0 var(--p);
+    position: relative;
+    right: var(--p);
+    text-align: center;
+    width: 100%;
+}
+
+.ribbon:before,
+.ribbon:after {
+    background-color: inherit;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: calc(var(--p)/2);
+    width: var(--p);
+    filter: brightness(.5);
+    z-index: -1;
+}
+
+.ribbon:before {
+    left: 0;
+    transform: skewy(45deg);
+}
+
+.ribbon:after {
+    right: 0;
+    transform: skewy(-45deg);
+}
+
+
+/* ⇢ following styles are for demo decoration ⇠ */
+
+.card {
+    height: 650px;
+    margin: auto;
+    margin-top: 90px;
+    width: 1300px;
+    background-color: beige;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #009959;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+ </style>
+</head>
+<body>
+<ul class="menu">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="aboutus2.html">About</a></li>
+  <li><a href="join.html">Join</a></li>
+</ul>
+<div style="background-image: url('tractorPull.jpg'); background-repeat: no-repeat; background-size: cover; background-position: top;">
+<hr />
+<div style="border: 2px solid black;margin: 20px; font-size: 50px; text-align: center;">
+  <h1 > Join</h1> <br /><br />
+</div>
+<hr />
+</div>
+
+<div class="split left">
+  <div class="centered">
+  <img src="speechBubble.jpg" alt="speechbubble.png">
+    <h2 style="font-size: 60px;">FAQ's</h2>
+    <a href="#myID"><p>Read down below to find out more!</p></a>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+  <img src="myBook.jpg" alt="Avatar woman">
+    <h2 style="font-size: 60px;">Register Now!</h2>
+    <a href="https://www.4honline.com/"><p>Click here to sign up!</p></a>
+  </div>
+</div>
+
+<center>
+<table>
+<tr><td><h2 style="font-size: 60px;">FAQ's</h2></td><td><h2 style="font-size: 60px;">Interested? Register Now!</h2></td></tr>
+</table>
+</center>
+
+
+<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+<br /> 
+<section class=card>
+    <header class=ribbon>
+        <h2 id ="myID">Frequently Asked Questions</h2>
+		<h4 style="font-size: 25px; text-align: left; padding-left: 10px; ">What is 4-H?</h4>
+		<p style="font-size: 20px; text-align: left; padding-left: 10px;"> 4-H is the largest youth development program in the Nation. 4-H focuses mainly on leadership, community service, personal development, and life skills. However, there is a wide range of projects that members can take, ranging from theater to riflery to aerospace. 4-Hers get together with their club and decide on which workshops and community service activites they want to do as a group. During the year, members work on their projects and partake in these activites. Then, during the summer, they present their projects to judges and learn more about the topic that they chose at the county or state fairs. </p>
+		<h4 style="font-size: 25px; text-align: left; padding-left: 10px; ">What do you do in 4-H?</h4>
+		<p style="font-size: 20px; text-align: left; padding-left: 10px;"> 4-Hers meet monthly with their club for about an hour at a specific location. For example, our club meets on the first Sunday of the month at the town hall. At meetings, members discuss different ideas, plan trips or activities, and partake in a game and snack. Then, 4-Hers can enroll in different projects based on what they are interested in. Some members take more than others, so if you are a first-year member, I would reccomend starting with one per year. Each project has a project book where members can learn more about their topic and do different activities to learn more. During the summer, 4-Hers get to present their project to a judge at the county fair and if they qualify, the state fair. </p>
+		<h4 style="font-size: 25px; text-align: left; padding-left: 10px; ">How can you join?</h4>
+		<p style="font-size: 20px; text-align: left; padding-left: 10px;"> There are different types of clubs. The first type is the "traditional" 4-H club, which is usually in your community. The second types of clubs are SPIN clubs which focus mainly on a specific skill such as gardening, robotics, or horses. Whichever you choose, you will learn a lot and grow as a citizen, a student, and a person. If you hit the register button up top or <a href="https://www.4honline.com/">here </a>, it will take you to the registration page.</p>
+	
+		
+    </header>
+</section>
+
+<br /> <br />
+<div class="dark"> 
+<center>
+<table> 
+<tr colspan="4"><td><a class="foottags"href="aboutus2.html">About us</a></td><td><a class="foottags"href="contact.html">Contact</a></td><td><a class="foottags"href="gallery.html">Gallery</a></td><td><a class="foottags"href="joinnow.html">Join Now!</a></td></tr>
+<form method="post"encType="text/plain" action="mailto: Malia.Fairbanks7@gmail.com" >
+	Sign up for Emails: <input type="text" ="40" name="Email" required/> <input name="submit" value="submit" type="submit">
+	</form> </td> </tr>
+<center><tr align="center"><td colspan="4"> <a href="https://www.facebook.com/groups/1986997374898009/?jazoest=265100120104517399107897710845105901086975981031131171177373711128351103458866508899122531015451114110115559710358651001215211989899968119458011076954911886991115710911957731074512011210378895511099839511012250657710884100103" class="fa fa-facebook"></a><a href="https://twitter.com/illinois4h?lang=en" class="fa fa-twitter"></a></td></tr> </center>
+</table>
+</center>
+</div>
+</body>
+</html>
